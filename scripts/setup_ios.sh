@@ -6,7 +6,8 @@
 
 # Configuration
 VERSION="6.0-hw"
-IOS_URL="https://github.com/Gperez88/ffmpeg_kit_flutter/releases/download/6.0-hw/ffmpeg-kit-ios-full-gpl-hw-6.0-hw.zip"
+IOS_URL="https://github.com/desarrollo-digitalexp/ffmpeg_kit_flutter/releases/download/binary-release/ffmpeg-kit-ios-full-gpl-hw-6.0-hw.zip"
+#IOS_URL="https://github.com/Gperez88/ffmpeg_kit_flutter/releases/download/6.0-hw/ffmpeg-kit-ios-full-gpl-hw-6.0-hw.zip"
 cd ios
 mkdir -p Frameworks
 curl -L $IOS_URL -o frameworks.zip

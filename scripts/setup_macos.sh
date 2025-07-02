@@ -5,7 +5,8 @@
 
 # Configuration
 VERSION="6.0-hw"
-MACOS_URL="https://github.com/Gperez88/ffmpeg_kit_flutter/releases/download/6.0-hw/ffmpeg-kit-macos-full-gpl-hw-6.0-hw.zip"
+MACOS_URL="https://github.com/desarrollo-digitalexp/ffmpeg_kit_flutter/releases/download/binary-release/ffmpeg-kit-macos-full-gpl-hw-6.0-hw.zip"
+#MACOS_URL="https://github.com/Gperez88/ffmpeg_kit_flutter/releases/download/6.0-hw/ffmpeg-kit-macos-full-gpl-hw-6.0-hw.zip"
 cd macos
 rm -rf Frameworks
 curl -L $MACOS_URL -o frameworks.zip
